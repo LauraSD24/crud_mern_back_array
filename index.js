@@ -3,11 +3,7 @@ import dotenv from "dotenv";
 import cors from "cors";
 dotenv.config(); //configura las variables de entorno en la aplicación y permite utilizarlas
 
-const dataUsers = [
-  {name: "user1",identity: "1044657377",phone: "3145672345",email: "user1@gmail.com"},
-  {name: "user1",identity: "1044657387",phone: "3145672345",email: "user1@gmail.com"},
-  {name: "user1",identity: "1044657389",phone: "3145672345",email: "user1@gmail.com"}
-];
+const dataUsers = [];
 
 const app = express(); // app va a ser igual a lo que retorna express()
 
